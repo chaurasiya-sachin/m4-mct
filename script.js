@@ -30,11 +30,10 @@ async function fetchStockData(symbol) {
     }
 
 
-    displayStockDetails(data, symbol);
-   
+    displayStockDetails(data, symbol);   
     displayStockGraph(data, symbol);
-
     addToComparisonTable(data, symbol);
+
   } catch (error) {
     console.error('Error fetching stock data:', error);
     alert('Error fetching stock data. Please try again.');
@@ -77,7 +76,7 @@ function displayStockGraph(data, symbol) {
       datasets: [{
         label: `${symbol} Price`,
         data: prices,
-        borderColor: 'blue',
+        borderColor: 'green',
         borderWidth: 2,
         fill: false,
       }]

@@ -38,7 +38,7 @@ body {
      border-radius: 5px;
      border: none;
      text-align: center;
-     
+     margin: 1rem 0;
      background-color: white;
      color: rgb(12, 12, 12);
      cursor: pointer;
@@ -69,6 +69,7 @@ body {
     border: 1px solid black;
     border-radius: 5px;
     font-weight: 700;
+    margin-bottom: 1rem;
 
   }
   #dropdown-section{
@@ -102,6 +103,7 @@ body {
   }
   
   table {
+    margin: 1rem;
     border-collapse: collapse;
   }
   

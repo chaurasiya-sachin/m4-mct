@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    width: 100vw;
+    position: relative;
+    overflow-x: hidden;
+  }
+  
+  header {
+    background: #53cc91;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    position: sticky;
+    top: -30px;
+  }
+  header h1{
+    color: rgb(255, 250, 113);
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-shadow: 2px 2px red;
+
+  }
+  header input{    
+     min-width:300px ;     
+     height: 2rem;
+     border-radius: 5px;
+     border: none;
+     text-align: center;
+     background-color: white;
+     color: grey;
+  }
+   header button {
+    min-width:150px ;     
+     height: 2rem;
+     border-radius: 5px;
+     border: none;
+     text-align: center;
+     
+     background-color: white;
+     color: rgb(12, 12, 12);
+     cursor: pointer;
+  }
+  header button:hover{
+    box-shadow: 2px 3px 1px rgb(255, 255, 255);
+    font-weight: 800;
+    border: 1px solid black;
+    /* color: white; */
+  }
+  main {
+    padding: 1rem;
+    max-width: 1280px;
+    width: 90%;
+    margin: 0 auto;
+    
+  }
+  
+  main h2{
+
+    border-bottom: 1px solid rgb(235, 235, 235);
+    color: rgb(33, 98, 62);
+  }
+
+  #trendingStocks{
+    height: 2.5rem;
+    width: 25%;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: 700;
+
+  }
+  #dropdown-section{
+    display: flex;     
+    border-bottom: 2px solid black;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding: 0 2rem;
+  }
+
+
+  #dropdown-section h2{
+    border: none;
+  }
+
+  #dropdown-section, #stock-data, #graph-section, #comparison-table {
+    margin-bottom: 2rem;
+  }
+
+  #stockDetails{
+    
+    margin-left: 2rem;
+  }
+  
+  select, table {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  thead {
+    background: #333;
+    color: #fff;
+  }
+  
+  canvas {
+    max-width: 90%;
+    
+  }
+  
